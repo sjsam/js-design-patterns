@@ -9,7 +9,7 @@ Structural design patterns are a category of design patterns that focus on the c
 Behavioral design patterns are a category of design patterns that focus on communication and interaction between objects, and the distribution of responsibilities among objects. These patterns are concerned with how objects communicate with each other and how they work together to achieve common goals.
 - Creational Design Patterns<br>
 Creational design patterns are a category of design patterns that focus on object creation mechanisms, trying to create objects in a manner suitable to the situation. These patterns are concerned with the process of object creation and the ways in which objects can be instantiated and composed into larger structures.
-- Other useful patterns
+- Other useful patterns<br>
 Other common patterns prevalent in programming that don't below the above three.
 ### 1. Structural Design Patterns
 - Proxy pattern<br>
@@ -27,11 +27,26 @@ The Facade pattern is a structural design pattern that provides a simplified int
 - Flyweight Pattern<br>
 The Flyweight pattern is a structural design pattern that is used to minimize memory usage and improve performance by sharing as much data as possible with similar objects. The Flyweight pattern involves creating a pool of reusable objects that can be shared among multiple clients, instead of creating a new object every time one is needed.
 ### 2. Behavioural Design Patterns
-- Strategy pattern<br>
-- Iterator pattern<br>
-- Mediator pattern<br>
-- Observer pattern<br>
-- Visitor pattern<br>
+- Strategy Pattern<br>
+Defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing clients to switch algorithms easily.
+- Iterator Pattern<br>
+Provides a way to access the elements of an aggregate object without exposing its underlying representation.
+- Mediator Pattern<br>
+Defines an object that encapsulates how a set of objects interact, promoting loose coupling by keeping objects from referring to each other explicitly.
+- Observer Pattern<br>
+Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+- Visitor Pattern<br>
+Separates an algorithm from an object structure by moving the algorithm into a separate object.
+- Command Pattern<br>
+Encapsulates a request as an object, allowing clients to parameterize requests with different objects, queue or log requests, and support undoable operations.
+- Template Method Pattern<br>
+Defines the skeleton of an algorithm in a base class, allowing subclasses to provide specific behavior while preserving the structure of the algorithm.
+- State Pattern<br>
+Allows an object to alter its behavior when its internal state changes, encapsulating the state-specific behavior into separate classes.
+- Chain of Responsibility Pattern<br>
+Allows multiple objects to handle a request without knowing which object will handle it.
+- Interpreter Pattern<br>
+Defines a language and a way to interpret it, allowing clients to interpret sentences in the language.
 ### 3. Creational Design Patterns
 - Factory Pattern<br>
 - Singleton Pattern<br>
