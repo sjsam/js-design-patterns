@@ -54,6 +54,10 @@ The Factory pattern is a creational design pattern that provides an interface fo
 Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 - Singleton Pattern<br>
 The Singleton pattern is a creational design pattern that ensures that a class has only one instance and provides a global point of access to that instance. The basic idea is to restrict the instantiation of a class to a single instance and provide a way for other objects to access that instance.
+- Builder Pattern<br>
+Separates the construction of a complex object from its representation, allowing for different representations to be created using the same construction process.
+- Prototype Pattern<br>
+Creates new objects by copying an existing object, allowing for the creation of new objects without requiring the use of a constructor.
 ### 4. Other Patterns
 - Retry Pattern<br>
 The retry pattern is a design pattern used to handle errors in software systems that can be resolved by retrying the failed operation. The basic idea is to automatically retry a failed operation for a certain number of times before giving up and reporting an error to the user.
