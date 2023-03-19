@@ -49,11 +49,14 @@ Allows multiple objects to handle a request without knowing which object will ha
 Defines a language and a way to interpret it, allowing clients to interpret sentences in the language.
 ### 3. Creational Design Patterns
 - Factory Pattern<br>
+The Factory pattern is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+- Abstract Factory Pattern<br>
+Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 - Singleton Pattern<br>
-- 
+The Singleton pattern is a creational design pattern that ensures that a class has only one instance and provides a global point of access to that instance. The basic idea is to restrict the instantiation of a class to a single instance and provide a way for other objects to access that instance.
 ### 4. Other Patterns
 - Retry Pattern<br>
-- 
+The retry pattern is a design pattern used to handle errors in software systems that can be resolved by retrying the failed operation. The basic idea is to automatically retry a failed operation for a certain number of times before giving up and reporting an error to the user.
 
 ## References
 Refer to [this chat GPT conversation](https://chat.openai.com/chat/4ffa9ed5-9674-4f5b-8077-0f0511a1b90e) for more details.
